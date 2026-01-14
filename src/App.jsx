@@ -109,7 +109,7 @@ const App = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?q=80&w=2070&auto=format&fit=crop" 
+            src="/assist.jpg" 
             alt="Caregiver helping smiling senior woman into a car" 
             className="w-full h-full object-cover object-center"
           />
@@ -188,7 +188,7 @@ const App = () => {
               <FadeIn>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                     <img 
-                        src="" 
+                        src="/chair.jpg" 
                         alt="Caregiver assisting senior man with walker near a car" 
                         className="w-full h-full object-cover transform hover:scale-105 transition duration-700"
                     />
@@ -352,13 +352,13 @@ const App = () => {
           <FadeIn>
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col lg:flex-row">
               
-              {/* Contact Info Side */}
-              <div className="lg:w-2/5 bg-dark text-white p-12 flex flex-col justify-between relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl -mr-16 -mt-16"></div>
+              {/* Contact Info Side - UPDATED TO BLUE */}
+              <div className="lg:w-2/5 bg-blue-900 text-white p-12 flex flex-col justify-between relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
                 
                 <div className="relative z-10">
                   <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-                  <p className="mb-10 text-gray-400">Call to schedule, or send a request and we will follow up shortly.</p>
+                  <p className="mb-10 text-blue-100">Call to schedule, or send a request and we will follow up shortly.</p>
                   
                   <div className="space-y-8">
                     <div className="flex items-center gap-5">
@@ -366,7 +366,7 @@ const App = () => {
                         <Phone className="text-secondary" />
                       </div>
                       <div>
-                        <p className="text-sm text-gray-400">Emergency & Booking</p>
+                        <p className="text-sm text-blue-200">Emergency & Booking</p>
                         <p className="font-bold text-xl">1-800-322-6717</p>
                       </div>
                     </div>
@@ -375,7 +375,7 @@ const App = () => {
                         <MapPin className="text-secondary" />
                       </div>
                       <div>
-                        <p className="text-sm text-gray-400">Headquarters</p>
+                        <p className="text-sm text-blue-200">Headquarters</p>
                         <p className="font-bold text-lg">5405 S Sheldon Rd,<br/>Canton Township, MI 48188</p>
                       </div>
                     </div>
@@ -384,9 +384,9 @@ const App = () => {
                         <Clock className="text-secondary" />
                       </div>
                       <div>
-                        <p className="text-sm text-gray-400">Operating Hours</p>
+                        <p className="text-sm text-blue-200">Operating Hours</p>
                         <p className="font-bold">Mon–Fri 8:00 AM–6:00 PM</p>
-                        <p className="text-sm text-gray-400">Weekends by appointment</p>
+                        <p className="text-sm text-blue-200">Weekends by appointment</p>
                       </div>
                     </div>
                   </div>
@@ -445,17 +445,17 @@ const App = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-dark text-gray-400 py-16 border-t border-gray-800">
+      {/* Footer - UPDATED TO BLUE */}
+      <footer className="bg-blue-900 text-gray-300 py-16 border-t border-blue-800">
         <div className="container mx-auto px-4 grid md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2">
             <h4 className="text-white text-2xl font-bold mb-6 tracking-tight">Gherghel Transportation</h4>
-            <p className="mb-4 text-gray-400 leading-relaxed max-w-sm">
+            <p className="mb-4 text-gray-300 leading-relaxed max-w-sm">
                 Providing safe, reliable, and compassionate transportation for our community's seniors and veterans. Because everyone deserves to move with dignity.
             </p>
             <div className="flex gap-4 mt-6">
-                <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition cursor-pointer text-white">f</div>
-                <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition cursor-pointer text-white">in</div>
+                <div className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-secondary transition cursor-pointer text-white">f</div>
+                <div className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-secondary transition cursor-pointer text-white">in</div>
             </div>
           </div>
           
@@ -477,7 +477,7 @@ const App = () => {
              </ul>
           </div>
         </div>
-        <div className="container mx-auto px-4 mt-16 pt-8 border-t border-gray-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
+        <div className="container mx-auto px-4 mt-16 pt-8 border-t border-blue-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
             <p className="text-xs">© {new Date().getFullYear()} SG Residential LLC. All rights reserved.</p>
             <p className="text-xs mt-2 md:mt-0">Privacy Policy | Terms of Service</p>
         </div>
